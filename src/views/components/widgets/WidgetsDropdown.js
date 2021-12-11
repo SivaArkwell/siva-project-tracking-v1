@@ -22,13 +22,13 @@ const WidgetsDropdown = () => {
           color="primary"
           value={
             <>
-              26K{' '}
+              1{' '}
               <span className="fs-6 fw-normal">
-                (-12.4% <CIcon icon={cilArrowBottom} />)
+                (+100% <CIcon icon={cilArrowTop} />)
               </span>
             </>
           }
-          title="Users"
+          title="Projects"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
@@ -109,13 +109,13 @@ const WidgetsDropdown = () => {
           color="info"
           value={
             <>
-              $6.200{' '}
+              $15,000{' '}
               <span className="fs-6 fw-normal">
-                (40.9% <CIcon icon={cilArrowTop} />)
+                (+43% <CIcon icon={cilArrowTop} />)
               </span>
             </>
           }
-          title="Income"
+          title="Pipeline Budget"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
@@ -195,13 +195,13 @@ const WidgetsDropdown = () => {
           color="warning"
           value={
             <>
-              2.49{' '}
+              64%{' '}
               <span className="fs-6 fw-normal">
-                (84.7% <CIcon icon={cilArrowTop} />)
+                (84.7% <CIcon icon={cilArrowBottom} />)
               </span>
             </>
           }
-          title="Conversion Rate"
+          title="Tasks Completed On-Time"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
@@ -268,13 +268,13 @@ const WidgetsDropdown = () => {
           color="danger"
           value={
             <>
-              44K{' '}
+              120{' '}
               <span className="fs-6 fw-normal">
-                (-23.6% <CIcon icon={cilArrowBottom} />)
+                (+128% <CIcon icon={cilArrowTop} />)
               </span>
             </>
           }
-          title="Sessions"
+          title="Projects Completed"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
